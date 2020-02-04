@@ -1,0 +1,12 @@
+{
+  "workbench.tree.indent": 15,
+  "explorer.compactFolders": false,
+  "workbench.colorCustomizations": {
+  "editorCursor.foreground": "#ff0000",
+  "terminalCursor.foreground": "#ff0000",
+  "statusBar.background" : "#1A1A1A",
+  "statusBar.noFolderBackground" : "#212121",
+  "statusBar.debuggingBackground": "#263238"},
+  "editor.cursorWidth": 3
+
+}

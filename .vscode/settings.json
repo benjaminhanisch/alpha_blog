@@ -7,6 +7,8 @@
   "statusBar.background" : "#1A1A1A",
   "statusBar.noFolderBackground" : "#212121",
   "statusBar.debuggingBackground": "#263238"},
-  "editor.cursorWidth": 3
+  "editor.cursorWidth": 3,
+  "editor.fontSize": 14,
+  "editor.tabSize": 2
 
 }

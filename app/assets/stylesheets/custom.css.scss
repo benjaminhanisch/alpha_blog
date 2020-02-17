@@ -41,6 +41,11 @@
   background-color: black;
 }
 
+.article-meta-details {
+  border-top: 1px solid #eaeaea;
+  margin-top: 15px;
+}
+
 .article-actions {
   border-top: 1px solid #eaeaea;
   padding: 5px;
@@ -48,18 +53,21 @@
 }
 
 footer {
-  margin-top: 45px;
-  padding-top: 5px;
-  border-top: 1px solid #eaeaea;
+  margin-top: 35px;
+  margin-bottom: 35px;
+  // padding-top: 5px;
+  // border-top: 1px solid #eaeaea;
   color: #777;
 }
 
 footer a:hover {
   color: #222;
+  text-decoration: none;
 }
 
 footer small {
   float: left;
+  padding-top: 15px;
 }
 
 footer ul {
@@ -69,5 +77,5 @@ footer ul {
 
 footer ul li {
   float: left;
-  margin-left: 15px;
+  // margin-left: 15px;
 }

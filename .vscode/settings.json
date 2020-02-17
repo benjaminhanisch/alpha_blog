@@ -1,6 +1,16 @@
 {
-  "workbench.tree.indent": 15,
+  "editor.tabSize": 2,
+  "liveServer.settings.donotVerifyTags": true,
+  "liveServer.settings.donotShowInfoMsg": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "git.confirmSync": false,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Community Material Theme Darker",
+  "workbench.tree.indent": 18,
   "explorer.compactFolders": false,
+  "editor.fontSize": 13,
+  "files.autoSave": "afterDelay",
+  // "editor.tokenColorCustomizations": {"comments": "#00FF00"},
   "workbench.colorCustomizations": {
   "editorCursor.foreground": "#ff0000",
   "terminalCursor.foreground": "#ff0000",
@@ -8,7 +18,9 @@
   "statusBar.noFolderBackground" : "#212121",
   "statusBar.debuggingBackground": "#263238"},
   "editor.cursorWidth": 3,
-  "editor.fontSize": 14,
-  "editor.tabSize": 2
-
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.fontFamily": "Fira Code, Consolas, Monoid, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "ruby.rubocop.executePath": "/Users/ben/.rvm/gems/ruby-2.5.1/bin/",
+    
 }

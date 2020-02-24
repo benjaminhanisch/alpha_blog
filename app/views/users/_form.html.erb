@@ -1,7 +1,7 @@
 <%= render 'shared/errors', obj: @user %>
 
 <div class="container-fluid">
- 
+
   <%= form_for(@user, :html => {class: "form-horizontal", role: "form"}) do |f| %>
     <div class='form-group row'>
       <div class="col-sm-2 col-form-label">
@@ -11,7 +11,7 @@
         <%= f.text_field :username, class: "form-control", placeholder: "Enter Username", autofocus: true %>
       </div>
     </div>
- 
+
     <div class="form-group row">
       <div class="col-sm-2 col-form-label">
         <%= f.label :email %>
@@ -29,7 +29,7 @@
         <%= f.password_field :password, class: "form-control", placeholder: "Enter password" %>
       </div>
     </div>
- 
+
     <div class="form-group row">
       <div class="col-sm-4 offset-sm-2">
         <%= f.submit(@user.new_record? ? "Sign up" : "Update account", class: 'btn btn-success') %>
@@ -38,6 +38,6 @@
          [ <%= link_to "Cancel and return to articles listing", articles_path %> ]
       </div>
     </div>
-    
+
     <% end %>
 </div>

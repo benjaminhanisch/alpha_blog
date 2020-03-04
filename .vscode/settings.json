@@ -6,11 +6,14 @@
   "git.confirmSync": false,
   "diffEditor.ignoreTrimWhitespace": false,
   "workbench.colorTheme": "Community Material Theme Darker",
-  "workbench.tree.indent": 18,
+  "workbench.tree.indent": 15,
   "explorer.compactFolders": false,
-  "editor.fontSize": 13,
+  "editor.fontSize": 14,
   "files.autoSave": "afterDelay",
-  // "editor.tokenColorCustomizations": {"comments": "#00FF00"},
+  "editor.tokenColorCustomizations": {
+      "[Community Material Theme Darker]": {
+          "strings": "#70ff70"
+          }},
   "workbench.colorCustomizations": {
   "editorCursor.foreground": "#ff0000",
   "terminalCursor.foreground": "#ff0000",
@@ -19,8 +22,13 @@
   "statusBar.debuggingBackground": "#263238"},
   "editor.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": true,
-  "editor.fontFamily": "Fira Code, Consolas, Monoid, Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontFamily": "Fira Code",
   "editor.fontLigatures": true,
   "ruby.rubocop.executePath": "/Users/ben/.rvm/gems/ruby-2.5.1/bin/",
-    
+  "editor.insertSpaces": false,
+  "editor.acceptSuggestionOnEnter": "off",
+  "files.trimTrailingWhitespace": true,
+  "files.trimFinalNewlines": true,
+  "material-icon-theme.saturation": 1,
+
 }

@@ -8,18 +8,20 @@
   "workbench.colorTheme": "Community Material Theme Darker",
   "workbench.tree.indent": 15,
   "explorer.compactFolders": false,
-  "editor.fontSize": 14,
+  "editor.fontSize": 13,
   "files.autoSave": "afterDelay",
   "editor.tokenColorCustomizations": {
       "[Community Material Theme Darker]": {
           "strings": "#70ff70"
-          }},
+      }
+  },
   "workbench.colorCustomizations": {
-  "editorCursor.foreground": "#ff0000",
-  "terminalCursor.foreground": "#ff0000",
-  "statusBar.background" : "#1A1A1A",
-  "statusBar.noFolderBackground" : "#212121",
-  "statusBar.debuggingBackground": "#263238"},
+      "editorCursor.foreground": "#ff0000",
+      "terminalCursor.foreground": "#ff0000",
+      "statusBar.background": "#1A1A1A",
+      "statusBar.noFolderBackground": "#212121",
+      "statusBar.debuggingBackground": "#263238"
+  },
   "editor.cursorWidth": 3,
   "editor.cursorSmoothCaretAnimation": true,
   "editor.fontFamily": "Fira Code",
@@ -30,5 +32,4 @@
   "files.trimTrailingWhitespace": true,
   "files.trimFinalNewlines": true,
   "material-icon-theme.saturation": 1,
-
 }

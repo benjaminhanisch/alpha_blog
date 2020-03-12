@@ -1,0 +1,8 @@
+<h1 align="center"><%= "Category: " + @category.name %></h1>
+<div class="container mt-3">
+<%= will_paginate @category_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next" %>
+</div>
+<%= render 'articles/article', obj: @category_articles %>
+<div class="container mt-3">
+<%= will_paginate @category_articles, list_classes: %w(pagination justify-content-center), previous_label: "Previous", next_label: "Next" %>
+</div>
